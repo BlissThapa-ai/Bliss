@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #d9d6d6;
+}
+
+nav {
+    background-color: #6095f0;
+    
+}
+ul{
+list-style: none;
+display: flex;
+justify-content: center;
+}
+ul li{
+padding: 10px;
+}
+ul li a{
+text-decoration: none;
+color: white;
+font-size: larger;
+}
+.main {
+    background-color: #ffffff;
+    text-align: center;
+    width: 700px;
+    margin: 10px auto 10px auto;
+
+
+}
+
+.first {
+    background-image: url("https://cdn.pixabay.com/photo/2023/09/17/19/10/building-8259184_1280.jpg");
+    height: 25vh;
+    padding: 100px;
+}
+
+.text {
+    text-align: center;
+}
+
+h1 {
+    color: white;
+    background-color: darkblue;
+    width: 250px;
+    height: fit-content;
+    font-size: 35px;
+    border-radius: 15px;
+    margin: 55px auto 20px auto;
+
+
+}
+
+h6 {
+    color: white;
+    background-color: rgb(82, 176, 226);
+    font-size: 25px;
+    /* width: 600px; */
+    height: fit-content;
+    margin: 10px auto 10px auto;
+    border-radius: 15px;
+}
+
+.second {
+    border: 2px solid red;
+    height: 45vh;
+}
+
+h5 {
+    margin: 25px;
+    font-size: 28px;
+    font-weight: 40px;
+}
+
+.elements {
+    display: flex;
+}
+
+.element {
+    margin: 10px 20px 10px 20px;
+    /* border: 1px solid green; */
+    width: 190px;
+}
+
+.element img {
+    border-radius: 100%;
+    width: 90px;
+    height: 90px;
+    margin: auto 60px;
+}
+
+.element h2 {
+    margin: 20px 10px;
+    font-size: 19px;
+}
+
+.element p {
+    font-size: 15px;
+    font-weight: bolder;
+}
+footer{
+    background-color: #444343;
+    color: white;
+}
